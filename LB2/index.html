@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <style>
+            label {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form id="registrationForm" class="centered-form">
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="password">Пароль:</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    minlength="6"
+                    required
+                />
+
+                <button
+                    type="submit"
+                    style="
+                        color: white;
+                        background-color: grey;
+                        border: none;
+                        cursor: pointer;
+                        padding: 10px;
+                    "
+                >
+                    Зареєструватися
+                </button>
+            </form>
+            <div class="position-example">
+                Цей елемент використовує position
+            </div>
+            <nav class="float-example">
+                Цей елемент використовує float: right
+                <ul>
+                    <li><a href="#1">Пункт 1</a></li>
+                    <li><a href="#2">Пункт 2</a></li>
+                    <li><a href="#3">Пункт 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>

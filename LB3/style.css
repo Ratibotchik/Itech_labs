@@ -1,0 +1,15 @@
+body {
+    transition: background-color 0.5s ease-in-out;
+}
+
+table {
+    color: #000;
+}
+
+.day-mode {
+    color: black;
+}
+
+.night-mode {
+    color: white;
+}
